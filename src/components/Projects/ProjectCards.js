@@ -7,8 +7,8 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>
-          {props.title}
-          </Card.Title>
+          <a href={props.link} target="_blank" rel="noreferrer noopener">{props.title}</a>
+        </Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
@@ -16,9 +16,9 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-       
       </Card.Body>
     </Card>
   );
 }
+
 export default ProjectCards;

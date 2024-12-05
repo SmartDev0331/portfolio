@@ -13,28 +13,27 @@ function AboutCard() {
             <br />
             I am currently working as a freelancer.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I earned a Bachelor's degree in Computer Science from American University.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight />  enjoy bakeries and good coffee shops.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight />  playing table tennis.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight />  Travelling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Luca</footer>
         </blockquote>
       </Card.Body>
     </Card>
