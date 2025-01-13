@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by LUCA CONSALVI</h3>
+          <h3>Designed and Developed by Josue Coro</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} LC</h3>
@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="/"
+                href="https://github.com/legendarystar143590"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -35,30 +35,10 @@ function Footer() {
               <a
                 href="/"
                 style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="/"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="" 
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
               </a>
             </li>
           </ul>
